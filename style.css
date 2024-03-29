@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.container {
+  margin: 3em auto;
+  padding: 3em;
+  max-width: 600px;
+  width: 90%;
+  border: 1px solid #ccc;
+}
+#text {
+  border: 1px solid #ccc;
+  display: block;
+  height: 200px;
+  width: 100%;
+  resize: none;
+}
+.counters {
+  margin-top: 1em;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.counters div {
+  padding: 0.5em 0;
+  display: flex;
+  align-items: center;
+}
+.counters span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  display: block;
+  margin: 1em 0 1em 1em;
+  padding: 0.5em;
+  text-align: center;
+  min-width: 60px;
+  min-height: 36px;
+}
